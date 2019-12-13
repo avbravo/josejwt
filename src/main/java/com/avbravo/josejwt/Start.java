@@ -17,8 +17,9 @@ public class Start {
     public static void main(String[] args) {
         try {
               // TODO code application logic here
-      GeneradorBasico gb = new GeneradorBasico();
-      Consumer consumer = new Consumer();
+   
+      MyConsumer mc = new MyConsumer();
+      mc.run();
       
               
         } catch (Exception e) {
